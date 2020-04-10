@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300&display=swap"
+        rel="stylesheet">
 
 </head>
 <header>
@@ -35,10 +40,16 @@
             </span>
         </div>
     </nav>
+</header>
+
+<body>
     <br></br>
-    <div class="container">
-        <h1> Contact Us </h1>
+    <!--Container for entering contact information and queries-->
+    <div class="container font-weight-bold">
+        <h1 class="font-weight-bold"> Contact Us </h1>
         <form>
+
+            <!--Name F/L-->
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="firstName">First Name</label>
@@ -49,6 +60,8 @@
                     <input type="text" class="form-control" id="lastName">
                 </div>
             </div>
+
+            <!--contact info-->
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
@@ -59,6 +72,8 @@
                     <input type="text" class="form-control" id="phoneNumber">
                 </div>
             </div>
+
+            <!--Enter message here-->
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Enter Message Here</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -71,9 +86,38 @@
     <div class="container">
 
     </div>
-</header>
+    <br></br>
 
-<body>
+    <!--Social media links w/ logos-->
+    <!--footer-->
+    <footer class="socialMediaTags fixed-bottom">
+        <div class="container.fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Find Ffej on Social Media</h5>
+                            <div class="logo">
+                                <a href="https://www.facebook.com/ffej.caplan">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/267px-F_icon.svg.png"
+                                        alt="faceook-icon" />
+                                </a>
+                                <a href="https://www.instagram.com/ffejcaplan/">
+                                    <img src="https://www.alltechbuzz.net/wp-content/uploads/2019/09/57e5dd424854aa14ea898579ce203e7c1d22dfe05558774075277dd2_640.jpg"
+                                        alt="instagram-icon" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/ffej-caplan-43701357/">
+                                    <img src="https://image.flaticon.com/icons/svg/174/174857.svg"
+                                        alt="linkedin-icon" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 
