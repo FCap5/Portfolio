@@ -7,129 +7,75 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <!--Sets text in upper left hand corner-->
-            <a class="navbar-brand" href="#">Ffej Caplan</a>
-            <!--collapse when screen shrinks-->
-            <!--still need to figure out why menu options aren't showing up in nav icon-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--navbar menu options-->
-            <!--need to get links to work-->
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto" id="navbarText">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    Est. 1990
-                </span>
-            </div>
-        </nav>
-    </header>
 
-    <br></br>
-    <!--Creating grid for following divs-->
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-12 col-lg-7">
+    <body>
+        <header>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <!--Sets text in upper left hand corner-->
+                <a class="navbar-brand" href="index.html">Ffej Caplan</a>
+                <!--collapse when screen shrinks-->
+                <!--still need to figure out why menu options aren't showing up in nav icon-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--navbar menu options-->
+                <!--need to get links to work-->
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-                <!--Intro Box-->
-                <div class="container">
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-4">
-                                        <img src="https://lh3.googleusercontent.com/zyM25paDIHXCbYS6iOy1QIPL143vd5DvT5TSlJT7Jgt3G9l2uL-daJ3M9ZqG9I_XdSSJ3vRtLHHagIzItNCDgyPXS_w1xtCTqebdAmbWTm0rjGw7W5b_3ZQaE7JwLa0I7X1q0K2HAPtTZ6UsABWjtTNWEktGjkUyrj56UD-YTWeZFu0qfLtfY6zRYBSTFpCm__cMKVlz2Psdgleo43rmc2S9kudYEY0QZ--wouA13UIgf0W_MhxjLrlnhX9GHPdt-iZqgaMzQKNJuiTbHg8XcvnSiGCT-xqaFx1H2Z3j9Do3HCLVFS8oY-G0T2WmqISNTsl8RGBMj_Uujt3ydeDOGMRKo7ArtdjZbtw-rsAVULMkIJmer87ub2GHDffw8wQQVPwXf8N7m7pi9BAlC4m3jIQJCkAKYaJnfHCDvPyoLXAH_yhvt6GcAZGQlU6pGqdOUVXqpzYlEazaZ720ImnHw381YbMUoR1DqFuXgKKaWEVSZCpIfGt_orljMfCJ6rXw9Xkn8xrpSoqIYEHoIQljsYNxLXC8aRMuWESOY0e0HXaz6QUZd0Jj3V453Y8pQgkXZQFc-wxEoINUJFVaATIsDoaGogILaN3mCHpM0xX-IgPpzWV88zjSqWaZT8P4jZCYVMOqEESfYGXQ9FRVHnNzB2OC-wz4nhFvxCJ1WRgaoe6GxhCb9uepEFjtMvil0pEYKL50erGjWo_9oK6lo25wI-6jwJ0Rw86CEZztHA3BD3jfDaS5jzHtsIo=w967-h916-no"
-                                            class="card-img" alt="Ffej and Dana">
-                                    </div>
-                                    <div class="col-sm-12 col-md-8">
-                                        <div class=" card-body">
-                                            <p class="card-text">Hi There!</p>
-                                            <p class="card-text">My name is Ffej Caplan. I'm currently a coding student
-                                                at the UNH Coding Bootcamp. This is a site with a little bit of
-                                                information about me. I hope you enjoy!</p>
+        <br></br>
+        <!--Creating grid for following divs-->
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12 col-lg-7">
+
+                    <!--Intro Box-->
+                    <div class="container">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-4">
+                                            <img src="https://lh3.googleusercontent.com/zyM25paDIHXCbYS6iOy1QIPL143vd5DvT5TSlJT7Jgt3G9l2uL-daJ3M9ZqG9I_XdSSJ3vRtLHHagIzItNCDgyPXS_w1xtCTqebdAmbWTm0rjGw7W5b_3ZQaE7JwLa0I7X1q0K2HAPtTZ6UsABWjtTNWEktGjkUyrj56UD-YTWeZFu0qfLtfY6zRYBSTFpCm__cMKVlz2Psdgleo43rmc2S9kudYEY0QZ--wouA13UIgf0W_MhxjLrlnhX9GHPdt-iZqgaMzQKNJuiTbHg8XcvnSiGCT-xqaFx1H2Z3j9Do3HCLVFS8oY-G0T2WmqISNTsl8RGBMj_Uujt3ydeDOGMRKo7ArtdjZbtw-rsAVULMkIJmer87ub2GHDffw8wQQVPwXf8N7m7pi9BAlC4m3jIQJCkAKYaJnfHCDvPyoLXAH_yhvt6GcAZGQlU6pGqdOUVXqpzYlEazaZ720ImnHw381YbMUoR1DqFuXgKKaWEVSZCpIfGt_orljMfCJ6rXw9Xkn8xrpSoqIYEHoIQljsYNxLXC8aRMuWESOY0e0HXaz6QUZd0Jj3V453Y8pQgkXZQFc-wxEoINUJFVaATIsDoaGogILaN3mCHpM0xX-IgPpzWV88zjSqWaZT8P4jZCYVMOqEESfYGXQ9FRVHnNzB2OC-wz4nhFvxCJ1WRgaoe6GxhCb9uepEFjtMvil0pEYKL50erGjWo_9oK6lo25wI-6jwJ0Rw86CEZztHA3BD3jfDaS5jzHtsIo=w967-h916-no"
+                                                class="card-img" alt="Ffej and Dana">
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br></br>
-
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-
-                            <!--Hobbies-->
-                            <div class="card">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row">
-                                            <div class="col-xs-12 col-sm-12">
-                                                <div class=" card-body">
-                                                    <h5 class="card-title font-weight-bold">Hobbies</h5>
-                                                    <p class="card-text">
-                                                        <ul>
-                                                            <li>All things coffee</li>
-                                                            <li>Cooking</li>
-                                                            <li>Baking Bread</li>
-                                                            <li>Ultimate Frisbee</li>
-                                                            <li>Watching Baseball</li>
-                                                            <li>Playing with my cat, Mabel</li>
-                                                            <li>Listening to Music</li>
-                                                            <li>Taking selfies with pets</li>
-                                                            <li>Binging shows on Netflix</li>
-                                                            <li>Learning how to code</li>
-
-                                                        </ul>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Fun Facts-->
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="card">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="row">
-                                            <div class="col-xs-12 col-sm-12">
-                                                <div class=" card-body">
-                                                    <h5 class="card-title font-weight-bold">Fun Facts</h5>
-                                                    <p class="card-text">
-                                                        <ul>
-                                                            <li>I was born in Houston, TX</li>
-                                                            <li>My favorite sports team is the Houston Astros</li>
-                                                            <li>I have a cat, but am really a dog person</li>
-                                                            <li>My name, Ffej, is just Jeff backwards</li>
-                                                            <li>I like to convince people I'm named after a Persian
-                                                                emperor</li>
-
-                                                        </ul>
-                                                    </p>
-                                                </div>
+                                        <div class="col-sm-12 col-md-8">
+                                            <div class=" card-body">
+                                                <p class="card-text">Hi There!</p>
+                                                <p class="card-text">My name is Ffej Caplan. I'm currently a coding
+                                                    student
+                                                    at the UNH Coding Bootcamp. This is a site with a little bit of
+                                                    information about me. I hope you enjoy!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,92 +83,186 @@
                             </div>
                         </div>
                         <br></br>
-                    </div>
-                </div>
-            </div>
-            <br></br>
 
-            <!--Resume-->
-            <div class="col-md-12 col-lg-5">
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class=" card-body">
-                                <h5 class="card-title font-weight-bold">Resume</h5>
-                                <h6 class="card-title font-weight-bold">Work Experience</h6>
-                                <h6>Maine Cold Brew Coffee</h6>
-                                <h7>Founder / Cold Brew Operations Lead</h7>
-                                <p>
-                                    <ul>
-                                        <li>Founded Maine Cold Brew in 2017 </li>
-                                        <li>Created a 60-gallon custom brew system</li>
-                                        <li>Developed cold brew recipes</li>
-                                        <li>Created and oversaw company website and social media</li>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6">
 
-                                    </ul>
-                                </p>
+                                <!--Hobbies-->
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <div class=" card-body">
+                                                        <h5 class="card-title font-weight-bold">Hobbies</h5>
+                                                        <p class="card-text">
+                                                            <ul>
+                                                                <li>All things coffee</li>
+                                                                <li>Cooking</li>
+                                                                <li>Baking Bread</li>
+                                                                <li>Ultimate Frisbee</li>
+                                                                <li>Watching Baseball</li>
+                                                                <li>Playing with my cat, Mabel</li>
+                                                                <li>Listening to Music</li>
+                                                                <li>Taking selfies with pets</li>
+                                                                <li>Binging shows on Netflix</li>
+                                                                <li>Learning how to code</li>
 
-                                <h6>Maine Cold Brew Coffee</h6>
-                                <h7>Founder / Cold Brew Operations Lead</h7>
-                                <p class="card-text">
-                                    This is a wider card with supporting text below
-                                    as a natural lead-in to additional content. This content is a
-                                    little bit longer.
-                                </p>
-                                <h6>Maine Cold Brew Coffee</h6>
-                                <h7>Founder / Cold Brew Operations Lead</h7>
-                                <p class="card-text">
-                                    This is a wider card with supporting text below
-                                    as a natural lead-in to additional content. This content is a
-                                    little bit longer.</p>
-
-                                <h6>Maine Cold Brew Coffee</h6>
-                                <h7>Founder / Cold Brew Operations Lead</h7>
-                                <p class="card-text">
-                                    This is a wider card with supporting text below
-                                    as a natural lead-in to additional content. This content is a
-                                    little bit longer.
-                                </p>
+                                                            </ul>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
+                            <!--Fun Facts-->
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12">
+                                                    <div class=" card-body">
+                                                        <h5 class="card-title font-weight-bold">Fun Facts</h5>
+                                                        <p class="card-text">
+                                                            <ul>
+                                                                <li>I was born in Houston, TX</li>
+                                                                <li>My favorite sports team is the Houston Astros</li>
+                                                                <li>I have a cat, but am really a dog person</li>
+                                                                <li>My name, Ffej, is just Jeff backwards</li>
+                                                                <li>I like to convince people I'm named after a Persian
+                                                                    emperor</li>
+
+                                                            </ul>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br></br>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+                <br></br>
 
-
-    <!--Social media links w/ logos-->
-    <!--footer-->
-    <footer class="socialMediaTags fixed-bottom">
-        <div class="container.fluid">
-            <div class="row">
-                <div class="col-sm-12">
+                <!--Resume-->
+                <div class="col-md-12 col-lg-5">
                     <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Find Ffej on Social Media</h5>
-                            <div class="logo">
-                                <a href="https://www.facebook.com/ffej.caplan">
-                                    <img src="https://i1.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Facebook-Icon.png?resize=300%2C300"
-                                        alt="faceook-icon" />
-                                </a>
-                                <a href="https://www.instagram.com/ffejcaplan/">
-                                    <img src="https://www.alltechbuzz.net/wp-content/uploads/2019/09/57e5dd424854aa14ea898579ce203e7c1d22dfe05558774075277dd2_640.jpg"
-                                        alt="instagram-icon" />
-                                </a>
-                                <a href="https://www.linkedin.com/in/ffej-caplan-43701357/">
-                                    <img src="https://image.flaticon.com/icons/svg/174/174857.svg"
-                                        alt="linkedin-icon" />
-                                </a>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class=" card-body">
+                                    <h5 class="card-title font-weight-bold">Resume</h5>
+                                    <h6 class="card-title font-weight-bold">Work Experience</h6>
+                                    <h6>Maine Cold Brew Coffee</h6>
+                                    <h7>Founder / Cold Brew Operations Lead</h7>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li>Founded Maine Cold Brew in 2017 </li>
+                                            <li>Created a 60-gallon custom brew system</li>
+                                            <li>Developed cold brew recipes</li>
+                                            <li>Created and oversaw company website and social media</li>
+
+                                        </ul>
+                                    </p>
+
+                                    <h6>Strictly Cold Brew</h6>
+                                    <h7>Co-Founder</h7>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li>Created a mobile Cold Brew Coffee cart to serve cold brew on the streets
+                                                of Portland, ME</li>
+                                            <li>Developed and implemented proprietary cold brew recipes</li>
+                                            <li>Established partnerships with multiple breweries for coffee-beer
+                                                collaborations</li>
+                                            <li>Achieved profitability after one season</li>
+                                        </ul>
+                                    </p>
+                                    <h6>Likeable Local</h6>
+                                    <h7>Content Strategy Associate</h7>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li> Managed creatinon of monthly custom social media content for 1,000+
+                                                small businesses
+                                            </li>
+                                            <li>Scheduled custom content to strategically boost visibility and
+                                                interaction on client social medai accounts</li>
+                                            <li>Drove traffic to client websites through content and ad creation</li>
+                                            <li>Audited client websites; proofread for spekking and grammatical mistakes
+                                            </li>
+                                        </ul>
+                                    </p>
+
+                                    <h6>Simon & Schuster</h6>
+                                    <h7>Associate Managing Editor (Scribner/Touchstone)</h7>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li>Managed production for all titles published under the Scribner and
+                                                Touchstone imprints (~200 titles annually) in both print and ebook
+                                                formats; Established and implemented production deadlines</li>
+                                            <li>Reviewed and tracked all materials passed into production (manuscripts,
+                                                photos, previously missing manuscript elements)</li>
+                                            <li>Collected and approved metadata for digital catalog to be delivered to
+                                                online
+                                                retailers seasonally; executed strategic “off cycle” data feeds, such as
+                                                cover,
+                                                title, and author reveals, to optimize marketing opportunities</li>
+                                            <li>Managed and oversaw a production team of eight from the Copyediting,
+                                                eBooks, Production, and Desktop departments; led weekly status update
+                                                meetings with production teams</li>
+                                            <li>Set publication dates to maximize retail opportunities for all Scribner
+                                                and
+                                                Touchstone titles</li>
+
+                                        </ul>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <!--Social media links w/ logos-->
+        <!--footer-->
+        <footer class="socialMediaTags fixed-bottom">
+            <div class="container.fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Find Ffej on Social Media</h5>
+                                <div class="logo">
+                                    <a href="https://www.facebook.com/ffej.caplan">
+                                        <img src="https://i1.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Facebook-Icon.png?resize=300%2C300"
+                                            alt="faceook-icon" />
+                                    </a>
+                                    <a href="https://www.instagram.com/ffejcaplan/">
+                                        <img src="https://www.alltechbuzz.net/wp-content/uploads/2019/09/57e5dd424854aa14ea898579ce203e7c1d22dfe05558774075277dd2_640.jpg"
+                                            alt="instagram-icon" />
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/ffej-caplan-43701357/">
+                                        <img src="https://image.flaticon.com/icons/svg/174/174857.svg"
+                                            alt="linkedin-icon" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
-</body>
+    </body>
 
 </html>
