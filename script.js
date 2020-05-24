@@ -10,7 +10,7 @@ $("#plannerBtn").click(function (e) {
 $("#weatherBtn").click(function (e) {
   e.preventDefault();
   window.open(
-    "https://ffejcaplan.github.io/06_HW/",
+    "https://ffejcaplan.github.io/Weather_Dashboard/",
     "_blank",
     "height=700,width=1400,menubar:yes"
   );
