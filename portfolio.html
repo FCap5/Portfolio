@@ -1,126 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300&display=swap"
-        rel="stylesheet">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <!--Sets text in upper left hand corner-->
-            <a class="navbar-brand" href="index.html">Ffej Caplan</a>
-            <!--collapse when screen shrinks-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--navbar menu options-->
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--Sets text in upper left hand corner-->
+        <a class="navbar-brand" href="index.html">Ffej Caplan</a>
+        <!--collapse when screen shrinks-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar menu options-->
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html"
+                >Portfolio <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <br></br>
-<div class="container">
-    <div class="row" id="cardContainer">
+    <br />
+    <div class="container">
+      <div class="row" id="cardContainer">
         <div class="card col-md-12 col-lg-3" id="portfolioCard">
-            <img src="assets/Portfolio/Day_Planner_Screenshot.png" class="card-img" id="plannerImg" alt="day_planner_img">
-            <div class="card-body">
-              <h5 class="card-title">Work Day Planner</h5>
-              <p class="card-text">An easy to use single-day work planning app. This app can save events and uses moments.js to color-code hours in the present, future, and past.</p>
-              <a href="#" class="btn btn-primary cardBtn" id="plannerBtn">Check It Out</a>
-            </div>
+          <img
+            src="assets/Portfolio/Kid_Booktivist.png"
+            class="card-img"
+            id="plannerImg"
+            alt="day_planner_img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Kid Booktivist</h5>
+            <p class="card-text">
+              This is a site for parents who are searching for new ways to help
+              provide their children important perspective on the world around
+              them and the beauty of differing life experiences.
+            </p>
+            <a href="#" class="btn btn-primary cardBtn" id="booktivistBtn"
+              >Check It Out</a
+            >
           </div>
-          <div class="card col-md-12 col-lg-3" id="portfolioCard">
-            <img src="assets/Portfolio/Weather_Dashboard_Screenshot.jpg" class="card-img" id="weatherImg" alt="weather_dashboard_img">
-            <div class="card-body">
-              <h5 class="card-title">Weather Dashboard</h5>
-              <p class="card-text">This app uses the Open Weather Map API to pull current and future forecasts. The app also saves up to ten recent searches in a searchable sidebar.</p>
-              <a href="#" class="btn btn-primary cardBtn" id="weatherBtn">Check It Out</a>
-            </div>
-          </div>
-          <div class="card col-md-12 col-lg-3" id="portfolioCard">
-            <img src="assets/Portfolio/Covid_Tracker_img.jpg" class="card-img" id="trackerImg" alt="covid_tracker_img">
-            <div class="card-body">
-              <h5 class="card-title">Covid-19 Tracker</h5>
-              <p class="card-text">A Covid-19 symptoms tracker for local employers. For this group project, I created the employee symptoms screening survey and the employee data page.</p>
-              <a href="#" class="btn btn-primary cardBtn" id="covidBtn">Check It Out</a>
-            </div>
-          </div>
-    </div>
-</div>
-<div id="myModal" class="modal fade">
-
-
-    <br></br>
-    <br></br>
-    <br></br>
-
-    <!--Social media links w/ logos-->
-    <!--footer-->
-    <footer class="socialMediaTags fixed-bottom">
-        <div class="container.fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Find Ffej on Social Media</h5>
-                            <div class="logo">
-                                <a href="https://www.facebook.com/ffej.caplan">
-                                    <img src="https://i1.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Facebook-Icon.png?resize=300%2C300"
-                                        alt="faceook-icon" />
-                                </a>
-                                <a href="https://www.instagram.com/ffejcaplan/">
-                                    <img src="https://www.alltechbuzz.net/wp-content/uploads/2019/09/57e5dd424854aa14ea898579ce203e7c1d22dfe05558774075277dd2_640.jpg"
-                                        alt="instagram-icon" />
-                                </a>
-                                <a href="https://www.linkedin.com/in/ffej-caplan-43701357/">
-                                    <img src="https://image.flaticon.com/icons/svg/174/174857.svg"
-                                        alt="linkedin-icon" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-    </footer>
+        <div class="card col-md-12 col-lg-3" id="portfolioCard">
+          <img
+            src="assets/Portfolio/note_taker.png"
+            class="card-img"
+            id="plannerImg"
+            alt="day_planner_img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Note Taker Express</h5>
+            <p class="card-text">
+              This is an app that explores the capabilities of the node Express
+              package. The note taker app creates a local server on the backend
+              that can be added to, edited, or deleted by a front-end user.
+            </p>
+            <a href="#" class="btn btn-primary cardBtn" id="noteBtn"
+              >Check It Out</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-12 col-lg-3" id="portfolioCard">
+          <img
+            src="assets/Portfolio/videoImg.png"
+            class="card-img"
+            id="plannerImg"
+            alt="day_planner_img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Employee Trackig App</h5>
+            <p class="card-text">
+              This app allows a user to build teams of employees using the
+              Inquire node package. Each employee is assigned a position,
+              division, manager, and salary.
+            </p>
+            <a href="#" class="btn btn-primary cardBtn" id="teamBtn"
+              >Check It Out</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-12 col-lg-3" id="portfolioCard">
+          <img
+            src="assets/Portfolio/Day_Planner_Screenshot.png"
+            class="card-img"
+            id="plannerImg"
+            alt="day_planner_img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Work Day Planner</h5>
+            <p class="card-text">
+              An easy to use single-day work planning app. This app can save
+              events and uses moments.js to color-code hours in the present,
+              future, and past.
+            </p>
+            <a href="#" class="btn btn-primary cardBtn" id="plannerBtn"
+              >Check It Out</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-12 col-lg-3" id="portfolioCard">
+          <img
+            src="assets/Portfolio/Weather_Dashboard_Screenshot.jpg"
+            class="card-img"
+            id="weatherImg"
+            alt="weather_dashboard_img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Weather Dashboard</h5>
+            <p class="card-text">
+              This app uses the Open Weather Map API to pull current and future
+              forecasts. The app also saves up to ten recent searches in a
+              searchable sidebar.
+            </p>
+            <a href="#" class="btn btn-primary cardBtn" id="weatherBtn"
+              >Check It Out</a
+            >
+          </div>
+        </div>
+        <div class="card col-md-12 col-lg-3" id="portfolioCard">
+          <img
+            src="assets/Portfolio/Covid_Tracker_img.jpg"
+            class="card-img"
+            id="trackerImg"
+            alt="covid_tracker_img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Covid-19 Tracker</h5>
+            <p class="card-text">
+              A Covid-19 symptoms tracker for local employers. For this group
+              project, I created the employee symptoms screening survey and the
+              employee data page.
+            </p>
+            <a href="#" class="btn btn-primary cardBtn" id="covidBtn"
+              >Check It Out</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="myModal" class="modal fade">
+      <br />
+      <br />
+      <br />
 
-<script
-    src="https://code.jquery.com/jquery-3.5.0.min.js"
-    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-    crossorigin="anonymous">
-</script>
-<script src="script.js"></script>
-</body>
-
+      <!--Social media links w/ logos-->
+      <!--footer-->
+      <footer class="socialMediaTags fixed-bottom">
+        <div class="container.fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Find Ffej on Social Media</h5>
+                  <div class="logo">
+                    <a href="https://github.com/ffejcaplan">
+                      <img
+                        src="https://i1.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Facebook-Icon.png?resize=300%2C300"
+                        alt="faceook-icon"
+                      />
+                    </a>
+                    <a href="https://www.instagram.com/ffejcaplan/">
+                      <img
+                        src="https://www.alltechbuzz.net/wp-content/uploads/2019/09/57e5dd424854aa14ea898579ce203e7c1d22dfe05558774075277dd2_640.jpg"
+                        alt="instagram-icon"
+                      />
+                    </a>
+                    <a href="https://www.linkedin.com/in/ffej-caplan-43701357/">
+                      <img
+                        src="https://image.flaticon.com/icons/svg/174/174857.svg"
+                        alt="linkedin-icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
